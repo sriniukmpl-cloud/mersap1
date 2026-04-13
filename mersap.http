@@ -1,0 +1,6 @@
+@mersap_HostAddress = http://125.16.26.146:5006
+
+GET {{mersap_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
