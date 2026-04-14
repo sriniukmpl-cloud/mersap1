@@ -1,5 +1,3 @@
-
-
 namespace MERSAP.Models;
 
 public class DataDto
@@ -9,7 +7,7 @@ public class DataDto
     public  string ItemDescription { get; set; } = string.Empty;
     public  string ShopID { get; set; } = string.Empty;
     public  string ShopDescription { get; set; } = string.Empty;
-    public string BillDate { get; init; } = string. Empty;
+    public string BillDate { get; init; } = string.Empty;
     //public  DateTime BillDate { get; set; } 
     public  string  BillTime { get; set; } = string.Empty;
     //public  DateTime AuditDateTime { get; set; } = DateTime.MinValue;

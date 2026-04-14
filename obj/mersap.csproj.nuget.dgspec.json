@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\admin\\mersap\\mersap.csproj": {}
+    "C:\\Users\\satya.mani\\mersap1\\mersap.csproj": {}
   },
   "projects": {
-    "C:\\Users\\admin\\mersap\\mersap.csproj": {
+    "C:\\Users\\satya.mani\\mersap1\\mersap.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\admin\\mersap\\mersap.csproj",
+        "projectUniqueName": "C:\\Users\\satya.mani\\mersap1\\mersap.csproj",
         "projectName": "mersap",
-        "projectPath": "C:\\Users\\admin\\mersap\\mersap.csproj",
-        "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\admin\\mersap\\obj\\",
+        "projectPath": "C:\\Users\\satya.mani\\mersap1\\mersap.csproj",
+        "packagesPath": "C:\\Users\\satya.mani\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\satya.mani\\mersap1\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\satya.mani\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net10.0"
@@ -80,7 +80,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.103/PortableRuntimeIdentifierGraph.json",
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.102/PortableRuntimeIdentifierGraph.json",
           "packagesToPrune": {
             "Microsoft.AspNetCore": "(,10.0.32767]",
             "Microsoft.AspNetCore.Antiforgery": "(,10.0.32767]",

@@ -3,8 +3,6 @@ using Microsoft.OData.ModelBuilder;
 using MERSAP.Models;
 using MERSAP.Data;
 using MERSAP.Security;
-using Microsoft.OData.Edm;
- 
 var builder = WebApplication.CreateBuilder(args);
  
 // ?? Controllers + OData
@@ -20,6 +18,7 @@ builder.Services
  
 // ?? Repositories
 builder.Services.AddScoped<IDataRepository, DataRepository>();
+builder.Services.AddScoped<IFIDataRepository, FIDataRepository>();
  
 // ?? OpenAPI (Swagger JSON)
 builder.Services.AddOpenApi();
@@ -50,8 +49,9 @@ static Microsoft.OData.Edm.IEdmModel GetEdmModel()
  
     builder.EntitySet<DataDto>("Data")
         .EntityType.HasKey(x => x.SNo);
+
+    builder.EntitySet<FIDataDto>("FIData")
+        .EntityType.HasKey(x => x.PosCode);
  
     return builder.GetEdmModel();
 }
-
-
