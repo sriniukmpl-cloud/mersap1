@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("mersap")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+186aba7d8f95b6a59286a04584d468d06bc322b9")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a5598acff1fb47544a983b8f7a1da00afc119dfa")]
 [assembly: System.Reflection.AssemblyProductAttribute("mersap")]
 [assembly: System.Reflection.AssemblyTitleAttribute("mersap")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

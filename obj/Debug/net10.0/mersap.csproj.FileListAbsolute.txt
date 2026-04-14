@@ -224,3 +224,4 @@ C:\Users\satya.mani\mersap1\obj\Debug\net10.0\refint\mersap.dll
 C:\Users\satya.mani\mersap1\obj\Debug\net10.0\mersap.pdb
 C:\Users\satya.mani\mersap1\obj\Debug\net10.0\mersap.genruntimeconfig.cache
 C:\Users\satya.mani\mersap1\obj\Debug\net10.0\ref\mersap.dll
+C:\Users\admin\mersap\obj\Debug\net10.0\mersap.sourcelink.json

@@ -16,7 +16,7 @@ public class FIDataRepository : IFIDataRepository
     public async Task<IEnumerable<FIDataDto>> GetAllAsync()
     {
         var sql = """
-            select * from TaxSumm;
+            select * from retailpos..TaxSumm1;
         """;
 
         using var conn = new SqlConnection(
